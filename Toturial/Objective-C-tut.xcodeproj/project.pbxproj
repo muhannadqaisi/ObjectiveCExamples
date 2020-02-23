@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F97CC474238C7298007315F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC473238C7298007315F7 /* main.m */; };
+		F97CC47C238C84AB007315F7 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC47B238C84AB007315F7 /* Animal.m */; };
+		F97CC47F238C8BE0007315F7 /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC47E238C8BE0007315F7 /* Koala.m */; };
+		F97CC482238C8DEC007315F7 /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC481238C8DEC007315F7 /* Animal+Exam.m */; };
+		F97CC485238C8F15007315F7 /* Animal+Vet.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC484238C8F15007315F7 /* Animal+Vet.m */; };
+		F97CC489238C9370007315F7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F97CC488238C9370007315F7 /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F97CC46E238C7298007315F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F97CC470238C7298007315F7 /* Objective-C-tut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C-tut"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97CC473238C7298007315F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F97CC47A238C84AB007315F7 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
+		F97CC47B238C84AB007315F7 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		F97CC47D238C8BE0007315F7 /* Koala.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Koala.h; sourceTree = "<group>"; };
+		F97CC47E238C8BE0007315F7 /* Koala.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Koala.m; sourceTree = "<group>"; };
+		F97CC480238C8DEC007315F7 /* Animal+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Exam.h"; sourceTree = "<group>"; };
+		F97CC481238C8DEC007315F7 /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
+		F97CC483238C8F15007315F7 /* Animal+Vet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Vet.h"; sourceTree = "<group>"; };
+		F97CC484238C8F15007315F7 /* Animal+Vet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Vet.m"; sourceTree = "<group>"; };
+		F97CC486238C907C007315F7 /* BeautyContest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyContest.h; sourceTree = "<group>"; };
+		F97CC487238C9370007315F7 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F97CC488238C9370007315F7 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97CC46D238C7298007315F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97CC467238C7298007315F7 = {
+			isa = PBXGroup;
+			children = (
+				F97CC472238C7298007315F7 /* Objective-C-tut */,
+				F97CC471238C7298007315F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97CC471238C7298007315F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97CC470238C7298007315F7 /* Objective-C-tut */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97CC472238C7298007315F7 /* Objective-C-tut */ = {
+			isa = PBXGroup;
+			children = (
+				F97CC473238C7298007315F7 /* main.m */,
+				F97CC47A238C84AB007315F7 /* Animal.h */,
+				F97CC47B238C84AB007315F7 /* Animal.m */,
+				F97CC47D238C8BE0007315F7 /* Koala.h */,
+				F97CC47E238C8BE0007315F7 /* Koala.m */,
+				F97CC480238C8DEC007315F7 /* Animal+Exam.h */,
+				F97CC481238C8DEC007315F7 /* Animal+Exam.m */,
+				F97CC483238C8F15007315F7 /* Animal+Vet.h */,
+				F97CC484238C8F15007315F7 /* Animal+Vet.m */,
+				F97CC486238C907C007315F7 /* BeautyContest.h */,
+				F97CC487238C9370007315F7 /* Dog.h */,
+				F97CC488238C9370007315F7 /* Dog.m */,
+			);
+			path = "Objective-C-tut";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97CC46F238C7298007315F7 /* Objective-C-tut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97CC477238C7298007315F7 /* Build configuration list for PBXNativeTarget "Objective-C-tut" */;
+			buildPhases = (
+				F97CC46C238C7298007315F7 /* Sources */,
+				F97CC46D238C7298007315F7 /* Frameworks */,
+				F97CC46E238C7298007315F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C-tut";
+			productName = "Objective-C-tut";
+			productReference = F97CC470238C7298007315F7 /* Objective-C-tut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97CC468238C7298007315F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Muhannad Qaisi";
+				TargetAttributes = {
+					F97CC46F238C7298007315F7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F97CC46B238C7298007315F7 /* Build configuration list for PBXProject "Objective-C-tut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F97CC467238C7298007315F7;
+			productRefGroup = F97CC471238C7298007315F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97CC46F238C7298007315F7 /* Objective-C-tut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97CC46C238C7298007315F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97CC489238C9370007315F7 /* Dog.m in Sources */,
+				F97CC482238C8DEC007315F7 /* Animal+Exam.m in Sources */,
+				F97CC485238C8F15007315F7 /* Animal+Vet.m in Sources */,
+				F97CC47F238C8BE0007315F7 /* Koala.m in Sources */,
+				F97CC474238C7298007315F7 /* main.m in Sources */,
+				F97CC47C238C84AB007315F7 /* Animal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F97CC475238C7298007315F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F97CC476238C7298007315F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F97CC478238C7298007315F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F97CC479238C7298007315F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97CC46B238C7298007315F7 /* Build configuration list for PBXProject "Objective-C-tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97CC475238C7298007315F7 /* Debug */,
+				F97CC476238C7298007315F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97CC477238C7298007315F7 /* Build configuration list for PBXNativeTarget "Objective-C-tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97CC478238C7298007315F7 /* Debug */,
+				F97CC479238C7298007315F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97CC468238C7298007315F7 /* Project object */;
+}
